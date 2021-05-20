@@ -35,19 +35,22 @@ p {
     font-weight: 400;
     font-size: 0.85rem;
     color: rgb(12, 12, 12);
+}
+
+.jstfy {
     text-align:justify;
+}
+
+.blue {
+    color:rgb(96, 96, 96);
 }
 
 .links {
     font-family: 'Raleway', sans-serif;
     font-weight:300;
-    color:rgb(12, 12, 12); 
+    color:rgb(133, 67, 47); 
     cursor: pointer;
     text-decoration: none;
-}
-
-.links:visited {
-    color: rgb(133, 67, 47);
 }
   
 .links:hover {
