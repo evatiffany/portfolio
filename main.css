@@ -1,0 +1,84 @@
+#intro, #main {
+    display:flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(216, 213, 205);
+    margin: 150px;
+}
+
+img.circle {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(12, 12, 12);
+    height: 180px;
+    width: 180px;
+  }
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: rgb(45, 45, 45);
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color:rgb(174, 60, 34);
+}
+
+p {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: rgb(12, 12, 12);
+    text-align:justify;
+}
+
+.links {
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    color:rgb(12, 12, 12); 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links:visited {
+    color: rgb(133, 67, 47);
+}
+  
+.links:hover {
+    color: rgb(196, 98, 69);
+}
+
+
+ol, ul {
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    font-size: 1rem;
+    text-align:left;
+    color:rgb(12, 12, 12);
+}
+
+.btn {
+    background-color: rgb(216, 213, 205);
+    border: 0.7px solid rgb(12, 12, 12);
+    border-radius: 30px;
+    color: rgb(12, 12, 12);
+    padding: 14px 28px; 
+    margin: 20px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background-color: rgb(12, 12, 12);
+    color: rgb(216, 213, 205);
+  }
